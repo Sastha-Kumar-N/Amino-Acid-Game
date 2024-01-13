@@ -18,9 +18,7 @@ const aminoAcids = [
     { name: 'Threonine', structure: 'images/threonine.png' },
     { name: 'Tryptophan', structure: 'images/tryptophan.png' },
     { name: 'Tyrosine', structure: 'images/tyrosine.png' },
-    { name: 'Valine', structure: 'images/valine.png' }
-    { name: 'Valine', structure: 'images/valine.png' }
-    { name: 'Valine', structure: 'images/valine.png' }
+    { name: 'Valine', structure: 'images/valine.png' },
 ];
 
 
