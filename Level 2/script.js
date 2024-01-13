@@ -1,9 +1,26 @@
 const aminoAcids = [
     { name: 'Alanine', structure: 'images/alanine.png' },
-    { name: 'Arginine', structure: 'images/Arginine.png' },
-    { name: 'Asparagine', structure: 'images/Asparagine.png' },
-    // Add more amino acids with their structure images
+    { name: 'Arginine', structure: 'images/arginine.png' },
+    { name: 'Asparagine', structure: 'images/asparagine.png' },
+    { name: 'Aspartic Acid', structure: 'images/aspartic_acid.png' },
+    { name: 'Cysteine', structure: 'images/cysteine.png' },
+    { name: 'Glutamic Acid', structure: 'images/glutamic_acid.png' },
+    { name: 'Glutamine', structure: 'images/glutamine.png' },
+    { name: 'Glycine', structure: 'images/glycine.png' },
+    { name: 'Histidine', structure: 'images/histidine.png' },
+    { name: 'Isoleucine', structure: 'images/isoleucine.png' },
+    { name: 'Leucine', structure: 'images/leucine.png' },
+    { name: 'Lysine', structure: 'images/lysine.png' },
+    { name: 'Methionine', structure: 'images/methionine.png' },
+    { name: 'Phenylalanine', structure: 'images/phenylalanine.png' },
+    { name: 'Proline', structure: 'images/proline.png' },
+    { name: 'Serine', structure: 'images/serine.png' },
+    { name: 'Threonine', structure: 'images/threonine.png' },
+    { name: 'Tryptophan', structure: 'images/tryptophan.png' },
+    { name: 'Tyrosine', structure: 'images/tyrosine.png' },
+    { name: 'Valine', structure: 'images/valine.png' }
 ];
+
 
 const aminoAcidImageContainer = document.getElementById('amino-acid-image');
 const guessInput = document.getElementById('guess-input');
