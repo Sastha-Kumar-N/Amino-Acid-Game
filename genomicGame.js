@@ -25,7 +25,6 @@ const aminoAcids = [
 // Shuffled amino acids
 let shuffledAminoAcids = [];
 let flippedCards = [];
-let currentLevel = 1;
 
 document.addEventListener('DOMContentLoaded', () => {
     startGame();
@@ -88,11 +87,6 @@ function checkForMatch() {
         // Display the full name in a modal
         setTimeout(() => {
             displayModal(shuffledAminoAcids[index1].name);
-
-            // Check if all cards are flipped
-            if (document.querySelectorAll('.card').length === 0) {
-                displayLevelCompletion();
-            }
         }, 500);
     } else {
         // Not matched
@@ -102,7 +96,6 @@ function checkForMatch() {
 
     flippedCards = [];
 }
-
 
 function displayModal(fullName) {
     const modalContainer = document.getElementById('modal-container');
@@ -125,17 +118,3 @@ function shuffle(array) {
     }
     return array;
 }
-function displayLevelCompletion() {
-    const modalContainer = document.getElementById('modal-container');
-    const modalContent = document.getElementById('modal-content-text');
-
-    modalContent.innerHTML = `Level ${currentLevel} completed! Click <a href="#" onclick="continueToNextLevel()">here</a> to continue to Level ${currentLevel + 1}`;
-
-    modalContainer.style.display = 'block';
-}
-function continueToNextLevel() {
-    closeModal(); // Close the current modal
-    currentLevel++; // Increment the level
-    startGame(); // Start the next level
-}
-
