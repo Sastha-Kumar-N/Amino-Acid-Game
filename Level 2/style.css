@@ -11,10 +11,13 @@ body {
     text-align: center;
 }
 
-#amino-acids, #protein-sequence {
+#amino-acid-image {
     margin: 20px 0;
+}
+
+input {
     padding: 10px;
-    border: 1px solid #ccc;
+    font-size: 16px;
 }
 
 button {
