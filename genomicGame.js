@@ -1,3 +1,8 @@
+// Created by Sastha Kumar N
+// GitHub Repo: https://github.com/Sastha-Kumar-N
+//Website URl : https://bharatgenomedatabase.org/tool/Game/1.html
+
+
 // Amino acid data
 const aminoAcids = [
     { code: 'Ala', name: 'Alanine' },
